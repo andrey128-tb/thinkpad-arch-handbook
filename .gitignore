@@ -1,0 +1,25 @@
+# Sensitive information
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Backup data
+backups/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Private system configuration
+private/
+*.conf.private
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
